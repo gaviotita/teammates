@@ -1,0 +1,467 @@
+{
+    "accounts":{
+        "account":{
+            "googleId":"CHomeUiT.instructor.tmms",
+            "name":"Teammates Test",
+            "isInstructor":true,
+            "email":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "institute":"TEAMMATES Test Institute 1"
+        },
+        "newInstructorWithSampleCourse":{
+            "googleId":"newIns.withSample",
+            "name":"Teammates Test New Instructor With Sample",
+            "isInstructor":true,
+            "email":"newIns.withSample@gmail.tmt",
+            "institute":"TEAMMATES Test Institute 1"
+        },
+        "newInstructorWithoutSampleCourse":{
+            "googleId":"newIns.withoutSample",
+            "name":"Teammates Test New Instructor Without Sample",
+            "isInstructor":true,
+            "email":"newIns.withoutSample@gmail.tmt",
+            "institute":"TEAMMATES Test Institute 1"
+        }
+    },
+    "courses":{
+        "CHomeUiT.CS2104":{
+            "id":"CHomeUiT.CS2104",
+            "name":"Programming Language Concepts",
+            "isArchived":false
+        },
+        "CHomeUiT.CS1101":{
+            "id":"CHomeUiT.CS1101",
+            "name":"Programming Methodology",
+            "isArchived":false
+        },
+        "CHomeUiT.Sample":{
+            "id":"newIns.wit-demo",
+            "name":"Sample Course 101",
+            "isArchived":false
+        }
+    },
+    "instructors":{
+        "CHomeUiT.instr.CS2104":{
+            "googleId":"CHomeUiT.instructor.tmms",
+            "courseId":"CHomeUiT.CS2104",
+            "name":"Teammates Test",
+            "email":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "role":"Co-owner",
+            "isDisplayedToStudents":true,
+            "displayedName":"Instructor",
+            "instructorPrivilegesAsText": "{\n  \"courseLevel\": {\n    \"canviewstudentinsection\": true,\n    \"cangivecommentinsection\": true,\n    \"cansubmitsessioninsection\": true,\n    \"canmodifysessioncommentinsection\": true,\n    \"canmodifycommentinsection\": true,\n    \"canmodifycourse\": true,\n    \"canviewsessioninsection\": true,\n    \"canmodifysession\": true,\n    \"canviewcommentinsection\": true,\n    \"canmodifystudent\": true,\n    \"canmodifyinstructor\": true\n  },\n  \"sectionLevel\": {},\n  \"sessionLevel\": {}\n}"
+        },
+        "CHomeUiT.instr.CS1101":{
+            "googleId":"CHomeUiT.instructor.tmms",
+            "courseId":"CHomeUiT.CS1101",
+            "name":"Teammates Test",
+            "email":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "role":"Helper",
+            "isDisplayedToStudents":true,
+            "displayedName":"Instructor",
+            "instructorPrivilegesAsText": "{\n  \"courseLevel\": {\n    \"canviewstudentinsection\": false,\n    \"cangivecommentinsection\": false,\n    \"cansubmitsessioninsection\": false,\n    \"canmodifysessioncommentinsection\": false,\n    \"canmodifycommentinsection\": false,\n    \"canmodifycourse\": false,\n    \"canviewsessioninsection\": false,\n    \"canmodifysession\": false,\n    \"canviewcommentinsection\": false,\n    \"canmodifystudent\": false,\n    \"canmodifyinstructor\": false\n  },\n  \"sectionLevel\": {},\n  \"sessionLevel\": {}\n}"
+        },
+        "CHomeUiT.instr.Sample":{
+            "googleId":"newIns.withSample",
+            "courseId":"newIns.wit-demo",
+            "name":"Teammates Test New Instructor With Sample",
+            "email":"newIns.withSample@gmail.tmt",
+            "role":"Co-owner",
+            "isDisplayedToStudents":true,
+            "displayedName":"Instructor",
+            "instructorPrivilegesAsText": "{\n  \"courseLevel\": {\n    \"canviewstudentinsection\": true,\n    \"cangivecommentinsection\": true,\n    \"cansubmitsessioninsection\": true,\n    \"canmodifysessioncommentinsection\": true,\n    \"canmodifycommentinsection\": true,\n    \"canmodifycourse\": true,\n    \"canviewsessioninsection\": true,\n    \"canmodifysession\": true,\n    \"canviewcommentinsection\": true,\n    \"canmodifystudent\": true,\n    \"canmodifyinstructor\": true\n  },\n  \"sectionLevel\": {},\n  \"sessionLevel\": {}\n}"
+        }
+    },
+    "students":{
+        "CHomeUiT.alice.b.tmms@CHomeUiT.CS2104":{
+            "googleId":"CHomeUiT.alice.b.tmms",
+            "email":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "name":"Alice Betsy",
+            "comments":"This student's name is Alice Betsy",
+            "team":"Team 1"
+        },
+        "CHomeUiT.benny.c.tmms@CHomeUiT.CS2104":{
+            "googleId":"CHomeUiT.benny.c.tmms",
+            "email":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "name":"Benny Charles",
+            "comments":"This student's name is Benny Charles",
+            "team":"Team 1"
+        },
+        "CHomeUiT.charlie.d.tmms@CHomeUiT.CS2104":{
+            "googleId":"CHomeUiT.charlie.d.tmms",
+            "email":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "name":"Charlie Davis",
+            "comments":"This student's name is Charlie Davis",
+            "team":"Team 2"
+        },
+        "CHomeUiT.danny.e.tmms@CHomeUiT.CS2104":{
+            "googleId":"CHomeUiT.danny.e.tmms",
+            "email":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "name":"Danny Engrid",
+            "comments":"This student's name is Danny Engrid",
+            "team":"Team 2"
+        },
+        "CHomeUiT.alice.b.tmms@CHomeUiT.CS1101":{
+            "googleId":"CHomeUiT.alice.b.tmms",
+            "email":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "name":"Alice Betsy",
+            "comments":"This student's name is Alice Betsy",
+            "team":"Team 1"
+        },
+        "CHomeUiT.benny.c.tmms@CHomeUiT.CS1101":{
+            "googleId":"CHomeUiT.benny.c.tmms",
+            "email":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "name":"Benny Charles",
+            "comments":"This student's name is Benny Charles",
+            "team":"Team 1"
+        },
+        "CHomeUiT.charlie.d.tmms@CHomeUiT.CS1101":{
+            "googleId":"CHomeUiT.charlie.d.tmms",
+            "email":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "name":"Charlie Davis",
+            "comments":"This student's name is Charlie Davis",
+            "team":"Team 2"
+        },
+        "CHomeUiT.danny.e.tmms@CHomeUiT.CS1101":{
+            "googleId":"CHomeUiT.danny.e.tmms",
+            "email":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "name":"Danny Engrid",
+            "comments":"This student's name is Danny Engrid",
+            "team":"Team 2"
+        }
+    },
+    "evaluations":{
+        "First Eval":{
+            "courseId":"CHomeUiT.CS2104",
+            "name":"First Eval",
+            "instructions":{
+                "value":"Please please fill it in"
+            },
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2017-04-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "p2pEnabled":true,
+            "published":false,
+            "activated":true
+        },
+        "Second Eval":{
+            "courseId":"CHomeUiT.CS2104",
+            "name":"Second Eval",
+            "instructions":{
+                "value":"Please please fill in the second evaluation"
+            },
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2012-04-02 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "p2pEnabled":true,
+            "published":true,
+            "activated":true
+        },
+        "Third Eval":{
+            "courseId":"CHomeUiT.CS1101",
+            "name":"Third Eval",
+            "instructions":{
+                "value":"Please please fill in the third evaluation"
+            },
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2012-04-02 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "p2pEnabled":true,
+            "published":false,
+            "activated":true
+        },
+        "Fourth Eval":{
+            "courseId":"CHomeUiT.CS1101",
+            "name":"Fourth Eval",
+            "instructions":{
+                "value":"Please please fill in the fourth evaluation"
+            },
+            "startTime":"2017-04-01 11:59 PM UTC",
+            "endTime":"2017-04-02 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "p2pEnabled":true,
+            "published":false
+        },
+        "Fifth Eval":{
+            "courseId":"CHomeUiT.CS1101",
+            "name":"Fifth Eval",
+            "instructions":{
+                "value":"Please please fill in the fifth evaluation"
+            },
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2017-04-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "p2pEnabled":true,
+            "published":false,
+            "activated":true
+        }
+    },
+    "feedbackSessions":{
+        "First Feedback Session":{
+            "feedbackSessionName":"First Feedback Session",
+            "courseId":"CHomeUiT.CS2104",
+            "creatorEmail":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "instructions":{
+                "value":"Please please fill in the following questions."
+            },
+            "createdTime":"2012-03-20 11:59 PM UTC",
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2017-04-30 11:59 PM UTC",
+            "sessionVisibleFromTime":"2012-03-28 11:59 PM UTC",
+            "resultsVisibleFromTime":"2017-05-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "feedbackSessionType":"STANDARD",
+            "sentOpenEmail":true,
+            "sentPublishedEmail":false
+        },
+        "Second Feedback Session":{
+            "feedbackSessionName":"Second Feedback Session",
+            "courseId":"CHomeUiT.CS2104",
+            "creatorEmail":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "instructions":{
+                "value":"Please please fill in the following questions."
+            },
+            "createdTime":"2012-03-20 11:59 PM UTC",
+            "startTime":"2017-04-01 11:59 PM UTC",
+            "endTime":"2017-04-30 11:59 PM UTC",
+            "sessionVisibleFromTime":"2012-03-28 11:59 PM UTC",
+            "resultsVisibleFromTime":"2017-05-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "feedbackSessionType":"STANDARD",
+            "sentOpenEmail":false,
+            "sentPublishedEmail":false
+        },
+        "Third Feedback Session":{
+            "feedbackSessionName":"Third Feedback Session",
+            "courseId":"CHomeUiT.CS2104",
+            "creatorEmail":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "instructions":{
+                "value":"Please please fill in the following questions."
+            },
+            "createdTime":"2012-03-20 11:59 PM UTC",
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2012-04-30 11:59 PM UTC",
+            "sessionVisibleFromTime":"2012-03-28 11:59 PM UTC",
+            "resultsVisibleFromTime":"2017-05-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "feedbackSessionType":"STANDARD",
+            "sentOpenEmail":true,
+            "sentPublishedEmail":false
+        },
+        "Fourth Feedback Session":{
+            "feedbackSessionName":"Fourth Feedback Session",
+            "courseId":"CHomeUiT.CS2104",
+            "creatorEmail":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "instructions":{
+                "value":"Please please fill in the following questions."
+            },
+            "createdTime":"2012-03-20 11:59 PM UTC",
+            "startTime":"2012-04-01 11:59 PM UTC",
+            "endTime":"2012-04-30 11:59 PM UTC",
+            "sessionVisibleFromTime":"2012-03-28 11:59 PM UTC",
+            "resultsVisibleFromTime":"2012-05-01 11:59 PM UTC",
+            "timeZone":8.0,
+            "gracePeriod":10,
+            "feedbackSessionType":"STANDARD",
+            "sentOpenEmail":true,
+            "sentPublishedEmail":true
+        }
+    },
+    "submissions":{
+        "submissionFromAliceToBennyFirstEval":{
+            "reviewer":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"First Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.alice.b.tmms@gmail.tmt to CHomeUiT.benny.c.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.alice.b.tmms@gmail.tmt to CHomeUiT.benny.c.tmms@gmail.tmt"
+            },
+            "team":"Team 1"
+        },
+        "submissionFromBennyToAliceFirstEval":{
+            "reviewer":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"First Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "team":"Team 1"
+        },
+        "submissionFromCharlieToDannyFirstEval":{
+            "reviewer":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"First Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        },
+        "submissionFromDannyToCharlieFirstEval":{
+            "reviewer":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"First Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        },
+        "submissionFromBennyToAliceSecondEval":{
+            "reviewer":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"Second Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "team":"Team 1"
+        },
+        "submissionFromCharlieToDannySecondEval":{
+            "reviewer":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"Second Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        },
+        "submissionFromDannyToCharlieSecondEval":{
+            "reviewer":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS2104",
+            "evaluation":"Second Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        },
+        "submissionFromAliceToBennyThirdEval":{
+            "reviewer":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "evaluation":"Third Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.alice.b.tmms@gmail.tmt to CHomeUiT.benny.c.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.alice.b.tmms@gmail.tmt to CHomeUiT.benny.c.tmms@gmail.tmt"
+            },
+            "team":"Team 1"
+        },
+        "submissionFromBennyToAliceThirdEval":{
+            "reviewer":"CHomeUiT.benny.c.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.alice.b.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "evaluation":"Third Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.benny.c.tmms@gmail.tmt to CHomeUiT.alice.b.tmms@gmail.tmt"
+            },
+            "team":"Team 1"
+        },
+        "submissionFromCharlieToDannyThirdEval":{
+            "reviewer":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "evaluation":"Third Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.charlie.d.tmms@gmail.tmt to CHomeUiT.danny.e.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        },
+        "submissionFromDannyToCharlieThirdEval":{
+            "reviewer":"CHomeUiT.danny.e.tmms@gmail.tmt",
+            "reviewee":"CHomeUiT.charlie.d.tmms@gmail.tmt",
+            "course":"CHomeUiT.CS1101",
+            "evaluation":"Third Eval",
+            "points":100,
+            "justification":{
+                "value":"This is a justification from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "p2pFeedback":{
+                "value":"This is a public comment from CHomeUiT.danny.e.tmms@gmail.tmt to CHomeUiT.charlie.d.tmms@gmail.tmt"
+            },
+            "team":"Team 2"
+        }
+    },
+    "feedbackQuestions":{
+        "CHomeUiT.CS2104:First Feedback Session:Q1":{
+            "feedbackSessionName":"First Feedback Session",
+            "courseId":"CHomeUiT.CS2104",
+            "creatorEmail":"CHomeUiT.instructor.tmms@gmail.tmt",
+            "questionMetaData":{
+                "value":"Rate 5 other students' products"
+            },
+            "questionNumber":"1",
+            "questionType":"TEXT",
+            "giverType":"STUDENTS",
+            "recipientType":"STUDENTS",
+            "numberOfEntitiesToGiveFeedbackTo":5,
+            "showResponsesTo":[
+                "INSTRUCTORS",
+                "RECEIVER"
+            ],
+            "showGiverNameTo":[
+                "INSTRUCTORS"
+            ],
+            "showRecipientNameTo":[
+                "INSTRUCTORS",
+                "RECEIVER"
+            ]
+        }
+    }
+}
